@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4F41E45B-7779-41F0-BBB0-2C3BAD6E9F8F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>WatchStocks</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D006C3127EC86108AAD4D95744F6265A74D610BB</key>
+		<string>https://github.com/dkneuma/WatchKit.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>WatchStocks.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D006C3127EC86108AAD4D95744F6265A74D610BB</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dkneuma/WatchKit.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D006C3127EC86108AAD4D95744F6265A74D610BB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D006C3127EC86108AAD4D95744F6265A74D610BB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>starter-project</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -13,7 +13,7 @@
 		EC8B075C1A7FF40B0061BFC1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8B075B1A7FF40B0061BFC1 /* Images.xcassets */; };
 		EC8B075F1A7FF40B0061BFC1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC8B075D1A7FF40B0061BFC1 /* LaunchScreen.xib */; };
 		EC8B076B1A7FF40C0061BFC1 /* WatchStocksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8B076A1A7FF40C0061BFC1 /* WatchStocksTests.swift */; };
-		EC8B077E1A7FF4210061BFC1 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8B077D1A7FF4210061BFC1 /* InterfaceController.swift */; };
+		EC8B077E1A7FF4210061BFC1 /* AppleDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8B077D1A7FF4210061BFC1 /* AppleDetailController.swift */; };
 		EC8B07801A7FF4210061BFC1 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8B077F1A7FF4210061BFC1 /* NotificationController.swift */; };
 		EC8B07821A7FF4210061BFC1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8B07811A7FF4210061BFC1 /* Images.xcassets */; };
 		EC8B07861A7FF4210061BFC1 /* WatchStocks WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = EC8B07851A7FF4210061BFC1 /* WatchStocks WatchKit App.app */; };
@@ -76,7 +76,7 @@
 		EC8B07781A7FF4210061BFC1 /* WatchStocks WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchStocks WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC8B077B1A7FF4210061BFC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC8B077C1A7FF4210061BFC1 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		EC8B077D1A7FF4210061BFC1 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		EC8B077D1A7FF4210061BFC1 /* AppleDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleDetailController.swift; sourceTree = "<group>"; };
 		EC8B077F1A7FF4210061BFC1 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		EC8B07811A7FF4210061BFC1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EC8B07851A7FF4210061BFC1 /* WatchStocks WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchStocks WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -222,7 +222,7 @@
 		EC8B07A21A80086F0061BFC1 /* InterfaceControllers */ = {
 			isa = PBXGroup;
 			children = (
-				EC8B077D1A7FF4210061BFC1 /* InterfaceController.swift */,
+				EC8B077D1A7FF4210061BFC1 /* AppleDetailController.swift */,
 				EC8B077F1A7FF4210061BFC1 /* NotificationController.swift */,
 			);
 			name = InterfaceControllers;
@@ -409,7 +409,7 @@
 				EC8B07801A7FF4210061BFC1 /* NotificationController.swift in Sources */,
 				EC8B079D1A7FF4990061BFC1 /* StocksAPI.swift in Sources */,
 				EC8B079F1A7FFE060061BFC1 /* Stock.swift in Sources */,
-				EC8B077E1A7FF4210061BFC1 /* InterfaceController.swift in Sources */,
+				EC8B077E1A7FF4210061BFC1 /* AppleDetailController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

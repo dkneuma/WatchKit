@@ -29,16 +29,16 @@ class StocksAPI {
                 
                 var error : NSError?
                 
-                var stocksData = NSJSONSerialization.JSONObjectWithData(data, options: .MutableContainers, error: &error) as NSDictionary
+                var stocksData = NSJSONSerialization.JSONObjectWithData(data, options: .MutableContainers, error: &error) as! NSDictionary
                 
-                let query = stocksData["query"] as NSDictionary
-                let results = query["results"] as NSDictionary
-                let quotes = results["quote"] as NSArray
+                let query = stocksData["query"] as! NSDictionary
+                let results = query["results"] as! NSDictionary
+                let quotes = results["quote"] as! NSArray
                 
                 var stocks = [Stock]()
                 
                 for quote in quotes {
-                    let stock = Stock(data: quote as NSDictionary)
+                    let stock = Stock(data: quote as! NSDictionary)
                     stocks.append(stock)
                 }
                 
